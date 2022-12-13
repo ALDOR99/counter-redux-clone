@@ -1,8 +1,8 @@
 import { createStore } from "redux";
-import { Reducer } from "./index";
+import { reducer } from "./index";
 
 //--------------------------------------------------------------------
 
 export default function configureStore() {
-  return createStore(reducers);
+  return createStore(reducer);
 }
